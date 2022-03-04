@@ -8,9 +8,9 @@ public class TestProblema1 {
 
         Problema1 problema1 = new Problema1();
 
-        String actual = problema1.imprimirProblema1(1);
+        String expected = problema1.imprimirProblema1(1);
 
-        String expected = "12Fizz34Buzz5Fizz678Fizz9Buzz1011Fizz121314FizzBuzz1617Fizz1819Buzz20";
+        String actual = problema1.imprimirProblema1_actual(1);
 
         Assertions.assertEquals(expected, actual);
     }

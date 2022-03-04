@@ -1,16 +1,22 @@
 public class pruebas {
+
+
+
+
     public static void main(String[] args) {
-        for (int i = 1; i < 21; i++) {
-            if (i % 3 == 0 && i != 15) {
-                System.out.print("Fizz");
-            } else if (i % 5 == 0 && i != 15){
-                System.out.print("Buzz");
+        String res = "";
+        for (int i = 1; i < 100; i++) {
+            if (i % 3 == 0) {
+                res = res + "Fizz";
+            } else if (i % 5 == 0){
+                res = res + "Buzz";
             }
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FizzBuzz");
+                res = res + "FizzBuzz";
             } else {
-                System.out.print(i);
+                res = res + i;
             }
         }
+        System.out.println(res);
     }
 }
