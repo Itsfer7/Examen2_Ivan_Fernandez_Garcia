@@ -57,7 +57,6 @@ public class Problema2 {
                 res = res + i;
             }
         }
-        System.out.print(res);
         return res;
     }
 }
