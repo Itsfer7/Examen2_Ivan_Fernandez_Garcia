@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class TestProblema2 {
 
     @Test
-    public void test_problema1() {
+    public void test_problema2() {
 
         Problema2 problema2 = new Problema2();
 

@@ -31,13 +31,12 @@ public class Problema2 {
     {
         String res = "";
         for (int i = j; i < k; i++) {
-            if (i % 3 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                res = res + "FizzBuzz";
+            } else if (i % 3 == 0) {
                 res = res + "Fizz";
             } else if (i % 5 == 0){
                 res = res + "Buzz";
-            }
-            if (i % 3 == 0 && i % 5 == 0) {
-                res = res + "FizzBuzz";
             } else {
                 res = res + i;
             }
@@ -48,13 +47,12 @@ public class Problema2 {
     {
         String res = "";
         for (int i = j; i < k; i++) {
-            if (i % 3 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                res = res + "FizzBuzz";
+            } else if (i % 3 == 0) {
                 res = res + "Fizz";
             } else if (i % 5 == 0){
                 res = res + "Buzz";
-            }
-            if (i % 3 == 0 && i % 5 == 0) {
-                res = res + "FizzBuzz";
             } else {
                 res = res + i;
             }
